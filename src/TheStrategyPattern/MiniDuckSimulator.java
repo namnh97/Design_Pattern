@@ -2,9 +2,9 @@
  * Author : AdNovum Informatik AG
  */
 
-package Chapter1;
+package TheStrategyPattern;
 
-import Chapter1.Fly.FlyRocketPowered;
+import TheStrategyPattern.Fly.FlyRocketPowered;
 
 public class MiniDuckSimulator {
 	public static void main(String[] args) {

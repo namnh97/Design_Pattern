@@ -2,11 +2,10 @@
  * Author : AdNovum Informatik AG
  */
 
-package Chapter1;
+package TheStrategyPattern;
 
-import Chapter1.Fly.FlyBehavior;
-import Chapter1.Fly.FlyWithWings;
-import Chapter1.Quack.Quack;
+import TheStrategyPattern.Fly.FlyWithWings;
+import TheStrategyPattern.Quack.Quack;
 
 public class MallardDuck extends Duck {
 

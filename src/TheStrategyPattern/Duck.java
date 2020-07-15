@@ -2,17 +2,16 @@
  * Author : AdNovum Informatik AG
  */
 
-package Chapter1;
+package TheStrategyPattern;
 
-import Chapter1.Fly.FlyBehavior;
-import Chapter1.Quack.QuackBehavior;
+import TheStrategyPattern.Fly.FlyBehavior;
+import TheStrategyPattern.Quack.QuackBehavior;
 
 public abstract class Duck {
 	FlyBehavior flyBehavior;
 	QuackBehavior quackBehavior;
 
 	public Duck() {
-
 	}
 
 	public void setFlyBehavior(FlyBehavior fb) {

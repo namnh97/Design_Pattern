@@ -2,7 +2,7 @@
  * Author : AdNovum Informatik AG
  */
 
-package Chapter1.Fly;
+package TheStrategyPattern.Fly;
 
 public class FlyNoWay implements FlyBehavior {
 	public void fly() {

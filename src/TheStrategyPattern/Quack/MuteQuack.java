@@ -2,7 +2,7 @@
  * Author : AdNovum Informatik AG
  */
 
-package Chapter1.Quack;
+package TheStrategyPattern.Quack;
 
 public class MuteQuack implements QuackBehavior {
 	public void quack() {

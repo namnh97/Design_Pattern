@@ -2,10 +2,10 @@
  * Author : AdNovum Informatik AG
  */
 
-package Chapter1;
+package TheStrategyPattern;
 
-import Chapter1.Fly.FlyNoWay;
-import Chapter1.Quack.Quack;
+import TheStrategyPattern.Fly.FlyNoWay;
+import TheStrategyPattern.Quack.Quack;
 
 public class ModelDuck extends Duck {
 	public ModelDuck() {
