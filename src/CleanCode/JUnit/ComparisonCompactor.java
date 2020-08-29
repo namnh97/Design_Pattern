@@ -1,5 +1,3 @@
-package CleanCode.JUnit;
-
 public class ComparisonCompactor {
     private static final String ELLIPSIS = "...";
     private static final String DELTA_END = "]";
