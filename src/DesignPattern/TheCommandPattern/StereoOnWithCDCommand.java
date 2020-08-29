@@ -1,6 +1,3 @@
-/*
- * Author : AdNovum Informatik AG
- */
 
 package DesignPattern.TheCommandPattern;
 

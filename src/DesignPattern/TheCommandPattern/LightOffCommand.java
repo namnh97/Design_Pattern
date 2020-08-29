@@ -1,6 +1,3 @@
-/*
- * Author : AdNovum Informatik AG
- */
 
 package DesignPattern.TheCommandPattern;
 
@@ -13,5 +10,10 @@ public class LightOffCommand implements Command {
 	@Override
 	public void execute() {
 		light.off();
+	}
+
+	@Override
+	public void undo() {
+		light.on();
 	}
 }
