@@ -28,7 +28,7 @@ public class ComparisonCompactor {
     }
 
     public boolean shouldBeCompacted() {
-        return !shouldBeCompacted();
+        return !shouldNotBeCompacted();
     }
 
     public boolean shouldNotBeCompacted() {
