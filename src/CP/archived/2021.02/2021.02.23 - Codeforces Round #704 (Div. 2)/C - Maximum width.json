@@ -1,0 +1,46 @@
+{
+  "name" : "C - Maximum width",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5 3\nabbbc\nabc\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 2\naaaaa\naa\n",
+    "output" : "4\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 5\nabcdf\nabcdf",
+    "output" : "1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2 2\nab\nab",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/CP/src/Code",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "Code.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.02.23",
+  "contestName" : "Codeforces Round #704 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

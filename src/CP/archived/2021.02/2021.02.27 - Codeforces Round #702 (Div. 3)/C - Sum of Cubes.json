@@ -1,0 +1,31 @@
+{
+  "name" : "C - Sum of Cubes",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "7\n1\n2\n4\n34\n35\n16\n703657519796",
+    "output" : "NO\nYES\nNO\nNO\nYES\nYES\nYES",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CP/src/Code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "Code.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.02.27",
+  "contestName" : "Codeforces Round #702 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}
