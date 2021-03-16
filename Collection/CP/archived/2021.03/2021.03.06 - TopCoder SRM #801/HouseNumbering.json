@@ -1,0 +1,36 @@
+{
+  "name" : "HouseNumbering",
+  "signature" : {
+    "name" : "prepareDigits",
+    "result" : "int[]",
+    "arguments" : [ "int", "int" ],
+    "argumentNames" : [ "firstHouse", "numberOfHouses" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "7", "4" ],
+    "result" : "0 3 0 1 0 0 0 1 0 1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "2", "6" ],
+    "result" : "1 2 2 0 1 0 1 0 1 0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "997", "1" ],
+    "result" : "0 0 0 0 0 0 0 1 0 2",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "160", "47" ],
+    "result" : "15 25 42 5 14 2 14 5 14 5",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2021.03.06",
+  "contestName" : "TopCoder SRM #801",
+  "testClasses" : [ ],
+  "fqn" : "Code.HouseNumbering",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

@@ -1,5 +1,5 @@
 {
-  "name" : "G - Old Floppy Drive",
+  "name" : "A - Split it!",
   "testType" : "SINGLE",
   "input" : {
     "type" : "STANDARD"
@@ -7,16 +7,21 @@
   "output" : {
     "type" : "STANDARD"
   },
-  "tests" : [ ],
+  "tests" : [ {
+    "input" : "7\n5 1\nqwqwq\n2 1\nab\n3 1\nioi\n4 2\nicpc\n22 0\ndokidokiliteratureclub\n19 8\nimteamshanghaialice\n6 3\naaaaaa\n",
+    "output" : "YES\nNO\nYES\nNO\nYES\nNO\nNO\n",
+    "index" : 0,
+    "active" : true
+  } ],
   "location" : "src/CP/src/Code",
   "vmArgs" : "-Xmx256M",
   "mainClass" : "Main",
-  "taskClass" : "Code.TaskG",
+  "taskClass" : "Code.TaskA",
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],
-  "date" : "2021.02.27",
-  "contestName" : "Codeforces Round #702 (Div. 3)",
+  "date" : "2021.03.12",
+  "contestName" : "Codeforces Round #706 (Div. 2)",
   "truncate" : true,
   "inputClass" : "FastIO.InputReader",
   "outputClass" : "java.io.PrintWriter",

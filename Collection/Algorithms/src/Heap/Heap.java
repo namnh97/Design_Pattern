@@ -26,6 +26,7 @@ public class Heap {
         }
     }
     private static void build(int n) {
+        // n / 2 - 1
         for (int i = n / 2 - 1; i >= 0; i--) {
             minHeapify(i);
         }
